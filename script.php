@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Desarrollo Web - UNAD</title>
+    <link rel="stylesheet" href="https://bootswatch.com/3/united/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+	<link href="script.php">
+</head>
+<body>
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 img-banner">
+						<img src="img/logo.png" height="100%">
+					</div>
+					<div class="col-md-10 title-web">
+						<p>Introducción al desarrollo de software <i class="fa fa-code"></i></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-default navbar-static-top">
+			<div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span> 
+			      </button>
+			      <a class="navbar-brand text-center title-web-movile" href="#">Desarrollo de software <i class="fa fa-code"></i></a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="menu">
+			      <ul class="nav navbar-nav">
+			        <li><a href="index.html">Principal</a></li>
+			        <li class="dropdown">
+				        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Unidad 1
+				        <span class="caret"></span></a>
+				        <ul class="dropdown-menu">
+				          <li><a href="unidad1/paso1.html">Análisis de requisitos y especificación de una aplicación</a></li>
+				          <li><a href="unidad1/paso2.html">Fundamentos de Desarrollo de Sistemas</a></li>
+				          <li><a href="unidad1/paso3.html">Modelos de Desarrollo de Software</a></li>
+				          <li><a href="unidad1/paso4.html">Herramientas de Análisis y de Diseño</a></li>
+				          <li><a href="unidad1/paso5.html">Ciclo de Desarrollo de Software</a></li>
+				          <li><a href="unidad1/paso6.html">Modelo Analisis Ingenieria de Software</a></li>
+				          <li><a href="unidad1/paso7.html">Metodologias agiles para el desarrollo de software educativo</a></li>
+				          <li><a href="unidad1/paso8.html">Cómo realizar entrevistas eficaces para obtener requisitos de software</a></li>
+				        </ul>
+				    </li>
+				    <li class="dropdown">
+				        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Unidad 2
+				        <span class="caret"></span></a>
+				        <ul class="dropdown-menu">
+				          <li><a href="unidad2/paso1.html">Modelado de sistemas software</a></li>
+				          <li><a href="unidad2/paso2.html">Modelamiento software</a></li>
+				          <li><a href="unidad2/paso3.html">Actividades del desarrollo de software</a></li>
+				          <li><a href="unidad2/paso4.html">Tecnicas de Modelado de Software</a></li>
+				          <li><a href="unidad2/paso5.html">Modelos de Desarrollo de Software</a></li>
+				          <li><a href="unidad2/paso6.html">Modelo Lineal</a></li>
+				          <li><a href="unidad2/paso7.html">Modelo en Cascada</a></li>
+				        </ul>
+				    </li>
+			        <li><a href="integrantes.html">Integrantes</a></li>
+			      </ul>
+			    </div>
+			</div>
+		</nav>
+	</header>
+	<hr>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9">
+				<div class="panel panel-primary">
+				  <div class="panel-heading text-center">Introducción al desarrollo de software</div>
+				  <div class="panel-body">
+				  	<div class="row">
+				  		<div class="col-md-12">
+							<h4 class="text-primary">Objetivo General</h4>
+							<p>Conocer las etapas necesarias para el desarrollo de cualquier software.</p>
+							<h4 class="text-primary">Objetivos especificos</h4>
+							<p>
+								<ul>
+									<li>Analizar los requerimientos del software.</li>
+									<li>Adoptar las especificaciones de los requerimientos del software.</li>
+									<li>Efectuar el modelo del software.</li>
+								</ul>
+							</p>
+				  		</div>
+				  	</div>
+				  	<div class="row">
+				  		<div class="col-md-6">
+				  			<h4 class="text-primary">Análisis y especificaciones del Software</h4>
+				  			<img src="img/1.png" class="img-responsive">
+				  			<h5 class="text-primary">
+				  				Objetivo
+				  			</h5>
+				  			<p>Realizar el análisis y conocer las especificaciones mediante las necesidades o requerimientos del software.</p>
+				  			<hr>
+				  			<p>
+                                    Se debe tener claro cuál es el problema y realizar la búsqueda de información al respecto, para poder definir sus componentes y funciones que lo formaran.
+									<br>
+                                    El análisis es fundamental en el desarrollo de software ya que de esto depende el éxito del mismo. Todo el proceso se basa en los requerimientos obtenidos en esta etapa.
+									<br>
+                                    Es muy importante entender lo que desea el cliente y a su vez manifestarle nuestra visión, de cómo lo interpretamos, para llegar a una idea concreta de lo que se requiere y con quienes va a interactuar el futuro sistema.
+									<br>
+                                    Después de este paso se deben presentar a los desarrolladores los requerimientos de la manera más detallada y estructurada posible.
+									<br>
+                                    Para el desarrollo de software se debe trabajar sobre un modelo, pero no siempre está ligado a su enfoque, por lo cual se puede adaptar o modificar para un buen proceso.
+									<br>
+                                    Existen varios modelos y hay tres paradigmas para los modelos de desarrollo de software.
+                                </p>
+				  		</div>
+				  		<div class="col-md-6">
+				  			<h4 class="text-primary">Modelo del software</h4>
+				  			<img src="img/2.jpg" class="img-responsive">
+				  			<h5 class="text-primary">
+				  				Objetivo
+				  			</h5>
+				  			<p>Preparar y realizar el modelo del software de acuerdo a las especificaciones.</p>
+				  			<hr>
+							<p>
+								Un modelo es una presentación abstracta del software y no como se desarrolla, sino la forma de enfocar el sistema.
+								<br>
+                                Visualiza lo que se debe construir y ayuda al intercambio de información con el cliente.
+                                <br>
+                                Se deben implementar criterios de seguridad de la información y proyectarlo a la realidad para prevenir inconvenientes en su implementación y tener la estructura adecuada que permita cumplir los objetivos y conseguir un cliente satisfecho.
+							</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+				  <div class="panel-heading text-center">Twitter UNAD</div>
+				  <div class="panel-body">
+					<div class="twitter">
+	                    <a class="twitter-timeline" data-height="400" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw"></a>
+	                </div>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+				  <div class="panel-heading text-center">Visitas</div>
+				  <div class="panel-body">
+					<div id="visitas">
+					
+					
+<?php
+$archivo = "contador.txt";
+$openn = fopen($archivo , "r");
+$totalvisitas = fread($openn, filesize($archivo));
+fclose($openn);
+$openn = fopen($archivo, "w");
+$totalvisitas += 1;
+$grabar = fwrite($openn, $totalvisitas);
+fclose($openn);
+
+echo "Las visitas hasta ahora: ".$totalvisitas."";
+?>
+
+	                </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
