@@ -152,8 +152,8 @@
 				<div class="panel panel-primary">
 				  <div class="panel-heading text-center">Visitas</div>
 				  <div class="panel-body">
-					<div id="visitas">
-					
+					  <div id="visitas">
+						  <p>Las visitas hasta el momento son: </p>
 					
 <?php
 $archivo = "contador.txt";
@@ -165,7 +165,7 @@ $totalvisitas += 1;
 $grabar = fwrite($openn, $totalvisitas);
 fclose($openn);
 
-echo "Las visitas hasta ahora: ".$totalvisitas."";
+echo  $totalvisitas;
 ?>
 
 	                </div>
