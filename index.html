@@ -11,6 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+	<link href="script.php">
 </head>
 <body>
 	<header>
@@ -146,7 +147,38 @@
 				  </div>
 				</div>
 			</div>
+			
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+				  <div class="panel-heading text-center">Visitas</div>
+				  <div class="panel-body">
+					<div id="visitas">
+					
+					
+<script languaje="php">
+<?php
+$archivo = "contador.txt";
+$openn = fopen($archivo , "r");
+$totalvisitas = fread($openn, filesize($archivo));
+fclose($openn);
+$openn = fopen($archivo, "w");
+$totalvisitas += 1;
+$grabar = fwrite($openn, $totalvisitas);
+fclose($openn);
+
+echo "Las visitas hasta ahora: ".$totalvisitas."";
+
+?>
+</script>
+
+	                </div>
+				  </div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
 </html>
+
+
+
